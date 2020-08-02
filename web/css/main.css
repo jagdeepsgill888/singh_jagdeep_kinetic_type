@@ -41,10 +41,11 @@ svg { width: 100%; }
   border-radius: 1em;
 }
 
-#typelayout path { opacity: 0; }
+#type_layout path { opacity: 0; }
 
 /* #you, #wanna, #play, #rough, #ok, #say, #hello, #to, #my, #little, #friend { animation: fadewords 0.2s forwards; } */
 
+/*
 .text-anim { animation: fadewords 0.2s forwards; }
 .container-turn { animation: turncontainer 0.2s linear 0.5s forwards, turnagain 0.3s linear 1s forwards, resetcontainer 1s linear 4s forwards; }
 .zoom-tony { animation: zoomtony 2.5s forwards; }
@@ -67,12 +68,10 @@ svg { width: 100%; }
 
 .peach1 {
   position: absolute;
-  top: 110px;
-  left: 390px;
+  top: 400px;
+  left: 310px;
 
-  opacity: 1;
-
-  animation-delay: 2s;
+  opacity: 0;
 }
 
 #peach1 img {
@@ -81,51 +80,47 @@ svg { width: 100%; }
 
 .peach2 {
   position: absolute;
-  top: 540px;
-  left: 200px;
+  top: 80px;
+  left: 275px;
 
-  opacity: 1;
+  opacity: 0;
 
   animation-delay: 2s;
 }
 
 #peach2 img {
-  width: 70px;
+  width: 120px;
 }
 
 
 
 .apple {
   position: absolute;
-  top: 380px;
-  left: 240px;
+  top: 360px;
+  left: 80px;
 
-  opacity: 1;
-
-  animation-delay: 2s;
+  opacity: 0;
 }
 
 #apple img {
-  width: 65px;
+  width: 100px;
 }
 
 
 .orange {
   position: absolute;
   top: 420px;
-  left: 330px;
+  left: 230px;
 
-  opacity: 1;
-
-  animation-delay: 2s;
+  opacity: 0;
 }
 
 #orange img {
-  width: 125px;
+  width: 190px;
 }
 
 
-
+/*
 @keyframes fadewords {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -153,4 +148,4 @@ svg { width: 100%; }
 @keyframes resetcontainer {
   0% { transform: rotate(0deg) scale(1.4) translate(-13%, 11%); }
   100% { transform: scale(1) translate(0, 0); }
-}
+} */
